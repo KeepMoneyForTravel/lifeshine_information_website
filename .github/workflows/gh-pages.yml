@@ -3,11 +3,16 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger workflow on push to the main branch
+      - main  
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write       # ให้สิทธิ์เขียน/อ่านไฟล์ใน repository
+      pages: write          # สำหรับการเขียนไปยัง GitHub Pages
+      id-token: write       # สำหรับ OpenID Connect ถ้าจำเป็น (optional)
 
     steps:
       - name: Checkout Repository
@@ -16,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'  # Adjust to your Node.js version
+          node-version: '18'  
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
