@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   line-height: 1.2;
   margin-top: 0;
-  color: #231942;
+  color: #a7ce6a;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -1850,26 +1850,25 @@ hr {
   }
 }
 .hero-slide-content .hero-slide-title {
-  font-size: 67px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 14px;
-  text-transform: uppercase;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-slide-content .hero-slide-title {
-    font-size: 45px;
+    font-size: 25px;
     margin-bottom: 5px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-slide-content .hero-slide-title {
-    font-size: 38px;
+    font-size: 18px;
     margin-bottom: 5px;
   }
 }
 @media only screen and (max-width: 767px) {
   .hero-slide-content .hero-slide-title {
-    font-size: 32px;
+    font-size: 12px;
     margin-bottom: 5px;
   }
 }
