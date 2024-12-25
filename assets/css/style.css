@@ -826,6 +826,7 @@ hr {
 /*----------------------------------------*/
 .section-title {
   margin-bottom: 60px;
+  
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title {
@@ -7273,4 +7274,23 @@ hr {
   border-top: 0;
   font-size: 14px;
   padding: 18px 24px 18px;
+}
+
+.category-margin{
+  margin-left: 10px; margin-right: 10px;
+}
+
+.styled-text {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.product {
+  color: #f7b57a; /* Light orange */
+}
+.of {
+  color: #7fc6dc; /* Light blue */
+}
+.lifeshine {
+  color: #a7d18c; /* Light green */
 }
