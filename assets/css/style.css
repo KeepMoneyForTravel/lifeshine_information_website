@@ -506,7 +506,7 @@ hr {
   -o-transition: all 0.4s ease-out;
 }
 .sticky-header.sticky .header-logo img {
-  width: 70px;
+  width: 700px;
 }
 .sticky-header.sticky .main-nav > li > a {
   height: 80px;
@@ -2557,13 +2557,13 @@ hr {
 }
 .product-item .product-info .title {
   font-size: 21px;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 12px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
   .product-item .product-info .title {
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 8px;
   }
 }
@@ -7293,4 +7293,8 @@ hr {
 }
 .lifeshine {
   color: #a7d18c; /* Light green */
+}
+
+.as{
+  background-color: #000;
 }
