@@ -6551,7 +6551,7 @@ hr {
 
 .contact-info-item {
   text-align: center;
-  width: 33.3333%;
+  width: 50%;
 }
 @media only screen and (max-width: 767px) {
   .contact-info-item {
