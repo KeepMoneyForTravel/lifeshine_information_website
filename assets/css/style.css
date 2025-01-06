@@ -2070,6 +2070,23 @@ hr {
     max-width: 100%;
   }
 }
+    .product-title {
+        font-weight: 700;
+        font-size: 54px;
+    }
+
+    @media (max-width: 768px) {
+        .product-title {
+            font-size: 36px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .product-title {
+            font-size: 28px;
+            text-align: center;
+        }
+    }
 
 .hero-two-slide-thumb {
   float: left;

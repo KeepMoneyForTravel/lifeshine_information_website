@@ -8,11 +8,12 @@
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="Brancy - Cosmetic & Beauty Salon Website Template">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="bootstrap, ecommerce, ecommerce html, beauty, cosmetic shop, beauty products, cosmetic, beauty shop, cosmetic store, shop, beauty store, spa, cosmetic, cosmetics, beauty salon" />
+    <meta name="keywords"
+        content="bootstrap, ecommerce, ecommerce html, beauty, cosmetic shop, beauty products, cosmetic, beauty shop, cosmetic store, shop, beauty store, spa, cosmetic, cosmetics, beauty salon" />
     <meta name="author" content="codecarnival" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.webp">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.webp">
 
     <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
 
@@ -22,18 +23,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS (Bootstrap & Icon Font) -->
-    <link rel="stylesheet" href="../assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
 
     <!-- Plugins CSS (All Plugins Files) -->
-    <link rel="stylesheet" href="../assets/css/plugins/swiper-bundle.min.css">
-    <link rel="stylesheet" href="../assets/css/plugins/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/css/plugins/fancybox.min.css">
-    <link rel="stylesheet" href="../assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
 
     <!-- Style CSS -->
-    <link rel="stylesheet" href="../assets/css/style.min.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
-
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -48,66 +48,78 @@
                     <div class="col-5 col-sm-6 col-lg-3">
                         <div class="header-logo" style="width: 70%;">
                             <a>
-                                <img style="width: 70%;" src="../assets/images/logo2.png" alt="Logo" />
+                                <img style="width: 70%;" src="assets/images/logo2.png" alt="Logo" />
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-6 d-none d-lg-block">
                         <div class="header-navigation">
                             <ul class="main-nav justify-content-start">
-                                <li class="has-submenu"><a href="../index.html">home</a></li>
-                                <li><a href="../about-us.html">about</a></li>
-                                <li class="has-submenu position-static"><a href="../product.html">product</a></li>
-                                <li class="has-submenu"><a href="../blog.html">Blog</a></li>
-                                <li><a href="../contact.html">Contact</a></li>
+                                <li class="has-submenu"><a href="index.html">home</a></li>
+                                <li><a href="about-us.html">about</a></li>
+                                <li class="has-submenu position-static"><a href="product.html">product</a></li>
+                                <li class="has-submenu"><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-7 col-sm-6 col-lg-3">
                         <div class="header-action justify-content-end">
-                            <button class="header-action-btn ms-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch">
+                            <button class="header-action-btn ms-0" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch">
                                 <span class="icon">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <rect class="icon-rect" width="30" height="30" fill="url(#pattern1)"/>
-                    <defs>
-                      <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-                        <use xlink:href="#image0_504:11" transform="scale(0.0333333)"/>
-                      </pattern>
-                      <image id="image0_504:11" width="30" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABiUlEQVRIie2Wu04CQRSGP0G2EUtIbHwA8B3EQisLIcorEInx8hbEZ9DKy6toDI1oAgalNFpDoYWuxZzJjoTbmSXERP7kZDbZ859vdmb27MJcf0gBUAaugRbQk2gBV3IvmDa0BLwA4Zh4BorTACaAU6fwPXAI5IAliTxwBDScvJp4vWWhH0BlTLEEsC+5Fu6lkgNdV/gKDnxHCw2I9rSiNQNV8baBlMZYJtpTn71KAg9SY3dUYn9xezLPgG8P8BdwLteq5X7CzDbnAbXKS42WxtQVUzoGeFlqdEclxXrnhmhhkqR+8KuMqzHA1vumAddl3IwB3pLxVmOyr1NjwKQmURJ4lBp7GmOAafghpg1qdSDeDrCoNReJWmZB4dsAPsW7rYVa1Rx4FbOEw5TEPKmFvgMZX3DCgYeYNniMaQ5piTXghGhPLdTmZ33hYNpem98f/UHRwSxvhqhXx4anMA3/EmhiOlJPJnSBOb3uQcpOE65VhujPpAms/Bu4u+x3swRbeB24mTV4LgB+AFuLedkPkcmmAAAAAElFTkSuQmCC"/>
-                    </defs>
-                  </svg>
-                </span>
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect class="icon-rect" width="30" height="30" fill="url(#pattern1)" />
+                                        <defs>
+                                            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1"
+                                                height="1">
+                                                <use xlink:href="#image0_504:11" transform="scale(0.0333333)" />
+                                            </pattern>
+                                            <image id="image0_504:11" width="30" height="30"
+                                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABiUlEQVRIie2Wu04CQRSGP0G2EUtIbHwA8B3EQisLIcorEInx8hbEZ9DKy6toDI1oAgalNFpDoYWuxZzJjoTbmSXERP7kZDbZ859vdmb27MJcf0gBUAaugRbQk2gBV3IvmDa0BLwA4Zh4BorTACaAU6fwPXAI5IAliTxwBDScvJp4vWWhH0BlTLEEsC+5Fu6lkgNdV/gKDnxHCw2I9rSiNQNV8baBlMZYJtpTn71KAg9SY3dUYn9xezLPgG8P8BdwLteq5X7CzDbnAbXKS42WxtQVUzoGeFlqdEclxXrnhmhhkqR+8KuMqzHA1vumAddl3IwB3pLxVmOyr1NjwKQmURJ4lBp7GmOAafghpg1qdSDeDrCoNReJWmZB4dsAPsW7rYVa1Rx4FbOEw5TEPKmFvgMZX3DCgYeYNniMaQ5piTXghGhPLdTmZ33hYNpem98f/UHRwSxvhqhXx4anMA3/EmhiOlJPJnSBOb3uQcpOE65VhujPpAms/Bu4u+x3swRbeB24mTV4LgB+AFuLedkPkcmmAAAAAElFTkSuQmCC" />
+                                        </defs>
+                                    </svg>
+                                </span>
                             </button>
 
-                            <button class="header-action-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasCart" aria-controls="AsideOffcanvasCart">
+                            <button class="header-action-btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#AsideOffcanvasCart" aria-controls="AsideOffcanvasCart">
                                 <span class="icon">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <rect class="icon-rect" width="30" height="30" fill="url(#pattern2)"/>
-                    <defs>
-                      <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-                        <use xlink:href="#image0_504:9" transform="scale(0.0333333)"/>
-                      </pattern>
-                      <image id="image0_504:9" width="30" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABFUlEQVRIie2VMU7DMBSGvwAqawaYuAmKxCW4A1I5Qg4AA93KBbp1ZUVUlQJSVVbCDVhgzcTQdLEVx7WDQ2xLRfzSvzzb+d6zn2MYrkugBBYevuWsHKiFn2JBMwH8Bq6Aw1jgBwHOYwGlPgT4LDZ4I8BJDNiEppl034UEJ8DMAJ0DByHBACPgUYEugePQUKkUWAmnsaB/Ry/YO9aXCwlT72AdrqaWEohwBWxSwc8ReIVtYIr5bM5pXqO+Men7rozGlkVSv4lJj1WQfsbvXVkNVNk1eEK4ik9/yuwzAPhLh5iuU4jtftMDR4ZJJXChxTJ2H3zXGDgWc43/X2Wro8G81a8u2fXU2nXiLVAxvNIKuPGW/r/2SltF+a3Rkw4pmwAAAABJRU5ErkJggg=="/>
-                    </defs>
-                  </svg>
-                </span>
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect class="icon-rect" width="30" height="30" fill="url(#pattern2)" />
+                                        <defs>
+                                            <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1"
+                                                height="1">
+                                                <use xlink:href="#image0_504:9" transform="scale(0.0333333)" />
+                                            </pattern>
+                                            <image id="image0_504:9" width="30" height="30"
+                                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABFUlEQVRIie2VMU7DMBSGvwAqawaYuAmKxCW4A1I5Qg4AA93KBbp1ZUVUlQJSVVbCDVhgzcTQdLEVx7WDQ2xLRfzSvzzb+d6zn2MYrkugBBYevuWsHKiFn2JBMwH8Bq6Aw1jgBwHOYwGlPgT4LDZ4I8BJDNiEppl034UEJ8DMAJ0DByHBACPgUYEugePQUKkUWAmnsaB/Ry/YO9aXCwlT72AdrqaWEohwBWxSwc8ReIVtYIr5bM5pXqO+Men7rozGlkVSv4lJj1WQfsbvXVkNVNk1eEK4ik9/yuwzAPhLh5iuU4jtftMDR4ZJJXChxTJ2H3zXGDgWc43/X2Wro8G81a8u2fXU2nXiLVAxvNIKuPGW/r/2SltF+a3Rkw4pmwAAAABJRU5ErkJggg==" />
+                                        </defs>
+                                    </svg>
+                                </span>
                             </button>
 
                             <a class="header-action-btn" href="account-login.html">
                                 <span class="icon">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <rect class="icon-rect" width="30" height="30" fill="url(#pattern3)"/>
-                    <defs>
-                      <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
-                        <use xlink:href="#image0_504:10" transform="scale(0.0333333)"/>
-                      </pattern>
-                      <image id="image0_504:10" width="30" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABEUlEQVRIie3UMUoDYRDF8Z8psqUpLBRrBS+gx7ATD6E5iSjeQQ/gJUzEwmChnZZaKZiQ0ljsLkhQM5/5Agr74DX7DfOfgZ1Hoz+qAl30Marcx2H1thCtY4DJN76parKqmAH9DM+6eTcArX2QE3yVAO7lBA8TwMNIw6UgeJI46My+rWCjUQL0LVIUBd8lgEO1UfBZAvg8oXamCuWNRu64nRNMmUo/wReSXLXayoDoKc9miMvqW/ZNG2VRNLla2MYudrCFTvX2intlnl/gGu/zDraGYzyLZ/UTjrD6G2AHpxgnAKc9xgmWo9BNPM4BnPYDNiLg24zQ2oNpyFdZvRKZLlGhnvvKPzXXti/Yy7hEo3+iD9EHtgdqxQnwAAAAAElFTkSuQmCC"/>
-                    </defs>
-                  </svg>
-                </span>
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect class="icon-rect" width="30" height="30" fill="url(#pattern3)" />
+                                        <defs>
+                                            <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1"
+                                                height="1">
+                                                <use xlink:href="#image0_504:10" transform="scale(0.0333333)" />
+                                            </pattern>
+                                            <image id="image0_504:10" width="30" height="30"
+                                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABEUlEQVRIie3UMUoDYRDF8Z8psqUpLBRrBS+gx7ATD6E5iSjeQQ/gJUzEwmChnZZaKZiQ0ljsLkhQM5/5Agr74DX7DfOfgZ1Hoz+qAl30Marcx2H1thCtY4DJN76parKqmAH9DM+6eTcArX2QE3yVAO7lBA8TwMNIw6UgeJI46My+rWCjUQL0LVIUBd8lgEO1UfBZAvg8oXamCuWNRu64nRNMmUo/wReSXLXayoDoKc9miMvqW/ZNG2VRNLla2MYudrCFTvX2intlnl/gGu/zDraGYzyLZ/UTjrD6G2AHpxgnAKc9xgmWo9BNPM4BnPYDNiLg24zQ2oNpyFdZvRKZLlGhnvvKPzXXti/Yy7hEo3+iD9EHtgdqxQnwAAAAAElFTkSuQmCC" />
+                                        </defs>
+                                    </svg>
+                                </span>
                             </a>
 
-                            <button class="header-menu-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
+                            <button class="header-menu-btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -135,7 +147,8 @@
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <h5 class="showing-pagination-results mt-5 mt-md-9 text-center text-md-end">Showing Single Product</h5>
+                            <h5 class="showing-pagination-results mt-5 mt-md-9 text-center text-md-end">Showing Single
+                                Product</h5>
                         </div>
                     </div>
                 </div>
@@ -148,32 +161,40 @@
                     <div class="row product-details">
                         <div class="col-lg-6">
                             <div class="product-details-thumb">
-                                <img src="../assets/images/shop/go2p.png" width="570" height="693" alt="Image">
+                                <img src="assets/images/shop/dgp.png" width="570" height="693" alt="Image">
                                 <span class="flag-new">new</span>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="product-details-content">
                                 <h5 class="product-details-collection">Premioum collection</h5>
-                                <h3 class="product-details-title">O2Pro</h3>
+                                <h3 class="product-details-title">Glowprotec Sunscreen Serum SPF 50 PA+++</h3>
                                 <div class="product-details-review mb-7">
                                     <div class="product-review-icon">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-half-o"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
                                     </div>
                                     <button type="button" class="product-review-show">150 reviews</button>
                                 </div>
-                                <p class="mb-7">O2Pro Lifeshine เคล็ดไม่ลับผิวใสจากภายใน มุ่งเน้นการดูแลสุขภาพผิวอย่างล้ำลึกถึงระดับเซลล์ ด้วยแนวคิด "ผิวสุขภาพดีจากระดับชั้นหนังแท้ (Deep in dermis level)"
-                                    จากปัจจัยต่าง ๆ เช่น แสงแดด, มลพิษ, ความเครียด และการนอนหลับไม่เพียงพอ ล้วนส่งผลให้ผิวของคุณอ่อนแอลง ลดการผลิตคอลลาเจน เกราะป้องกันผิวอ่อนแอลง ผิวแห้ง,เกิดริ้วรอย และแก่ก่อนวัย</p>
-
+                                <p class="mb-7">
+                                    Glow Protec Sunscreen serum SPF 50 PA +++ (LIFESHINE Brand)
+                                    ผลิตภัณฑ์เซรั่มกันแดด สูตร Hybrid Sunscreen อ่อนโยนต่อผิวแพ้ง่าย และ
+                                    ไม่ก่อให้เกิดสิว
+                                    ผ่านการทดสอบ Dermatologist Tested
+                                    เซรั่มกันแดด ผสมสารสกัดนำเข้าจากประเทศญี่ปุ่น และ สหรัฐอเมริกา
+                                    บำรุงและปกปกป้องผิวในขวดเดียว
+                                </p>
                                 <div class="product-details-action">
                                     <h4 class="price">$254.22</h4>
                                     <div class="product-details-cart-wishlist">
-                                        <button type="button" class="btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa fa-heart-o"></i></button>
-                                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">Add to cart</button>
+                                        <button type="button" class="btn-wishlist" data-bs-toggle="modal"
+                                            data-bs-target="#action-WishlistModal"><i
+                                                class="fa fa-heart-o"></i></button>
+                                        <button type="button" class="btn ps-5" data-bs-toggle="modal"
+                                            data-bs-target="#action-CartAddModal">Buy Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -181,8 +202,17 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-7">
+                            <div class="nav product-details-nav" id="product-details-nav-tab" role="tablist">
+                                <button class="nav-link" type="button" role="tab"
+                                    aria-controls="specification">Specification</button>
+                            </div>
                             <div class="tab-content">
-                                <div class="tab-pane" >
+                                <div class="tab-pane">
+                                </div>
+
+                                <div class="tab-pane fade show active" id="review" role="tabpanel"
+                                    aria-labelledby="review-tab">
+                                    <!--== Start Reviews Content Item ==-->
                                     <ul class="product-details-info-wrap">
                                         <li><span>Weight</span>
                                             <p>250 g</p>
@@ -198,18 +228,88 @@
                                         </li>
                                     </ul>
 
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius velit corporis quo voluptate culpa soluta, esse accusamus, sunt quia omnis amet temporibus sapiente harum quam itaque libero tempore. Ipsum, ducimus. lorem</p>
+                                    <p>เซรั่มกันแดด ผสมสารสกัดนำเข้าจากประเทศญี่ปุ่น และ สหรัฐอเมริกา
+                                        บำรุงและปกปกป้องผิวในขวดเดียว
+                                        ด้วยคอนเซป PAC Action
+                                        P=Protect (ป้องกัน) คือ Sun protection serum SPF 50 PA +++
+                                        PURISOFT (Moringa Oleifera Seed Extract)
+                                        กันแดดสูตรไฮบริด ปกป้องผิวจากแดดได้ทั้งทาง Physical and Chemical
+                                        ที่มีอนุภาคระดับนาโน ป้องกันทั้งรังสี UVA UVB IR และแสงสีฟ้า Bluelight
+                                        A=Against (ต่อต้าน) คือ AcneBusters + Soybean Ferment ต่อต้านการเกิดสิว ครบทั้ง
+                                        4 Steps
+                                        -AcneBusters ช่วยลดการสะสม C. acnes อันเป็นต้นตอสาเหตุของการเกิดสิว
+                                        รวมถึงผลัดเซลล์ผิวอย่างอ่อนโยน ควบคุมความมันบนใบหน้า และลดรอยแดงจากสิว
+                                        และยังช่วยรักษาสิวทุกประเภท ทุกระดับความรุนแรง จากผลการทดสอบโดยแพทย์ผิวหนัง
+                                        -Soybean Ferment เป็นจุลินทรีย์ที่ดี ปรับสมดุลที่ดีบนใบหน้า
+                                        ลดการอักเสบและติดเชื้อ ช่วยให้ผิวชุ่มชื่นและแข็งแรง
+                                        C=Calming ปลอบประโลม) คือ Biosaccharide Gum-2,StimutexAS, Defensil,Aloe Vera
+                                        Leaf Juice
+                                        เป็นสารจากธรรมชาติที่ช่วยให้ช่วยป้องกันการสูญเสียน้ำจากผิว จึงให้ความชุ่มชื้น
+                                        และปลอบประโลมผิวอย่างอ่อนโยน
+                                    </p>
                                 </div>
-
-                                
                             </div>
                         </div>
-                       
+                        <div class="col-lg-5">
+                            <div class="product-reviews-form-wrap">
+                                <h4 class="product-form-title">Leave a replay</h4>
+                                <div class="product-reviews-form">
+                                    <form action="#">
+                                        <div class="form-input-item">
+                                            <textarea class="form-control" placeholder="Enter you feedback"></textarea>
+                                        </div>
+                                        <div class="form-input-item">
+                                            <input class="form-control" type="text" placeholder="Full Name">
+                                        </div>
+                                        <div class="form-input-item">
+                                            <input class="form-control" type="email" placeholder="Email Address">
+                                        </div>
+                                        <div class="form-input-item">
+                                            <div class="form-ratings-item">
+                                                <select id="product-review-form-rating-select" class="select-ratings">
+                                                    <option value="1">01</option>
+                                                    <option value="2">02</option>
+                                                    <option value="3">03</option>
+                                                    <option value="4">04</option>
+                                                    <option value="5">05</option>
+                                                </select>
+                                                <span class="title">Provide Your Ratings</span>
+                                                <div class="product-ratingsform-form-wrap">
+                                                    <div class="product-ratingsform-form-icon">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div>
+                                                    <div id="product-review-form-rating"
+                                                        class="product-ratingsform-form-icon-fill">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="reviews-form-checkbox">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="ReviewsFormCheckbox" checked>
+                                                <label class="form-check-label" for="ReviewsFormCheckbox">Provide
+                                                    ratings
+                                                    anonymously.</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-input-item mb-0">
+                                            <button type="submit" class="btn">SUBMIT</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-        
-
         </main>
 
         <!--== Start Footer Area Wrapper ==-->
@@ -221,10 +321,11 @@
                         <div class="col-md-6 col-lg-4">
                             <div class="widget-item">
                                 <div class="widget-about">
-                                    <a class="widget-logo" href="../index.html">
-                                        <img src="../assets/images/logo2.png" style="width: 70%;" alt="Logo">
+                                    <a class="widget-logo" href="index.html">
+                                        <img src="assets/images/logo2.png" style="width: 70%;" alt="Logo">
                                     </a>
-                                    <p class="desc prompt-thin">พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา!
+                                    <p class="desc prompt-thin">
+                                        พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา!
                                         เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย“Your Life, Your
                                         Shine”</p>
                                 </div>
@@ -293,7 +394,8 @@
                             </div>
                             <div class="modal-action-product">
                                 <div class="thumb">
-                                    <img src="assets/images/shop/modal1.webp" alt="Organic Food Juice" width="466" height="320">
+                                    <img src="assets/images/shop/modal1.webp" alt="Organic Food Juice" width="466"
+                                        height="320">
                                 </div>
                                 <h4 class="product-name"><a href="product-details.html">Readable content DX22</a></h4>
                             </div>
@@ -318,7 +420,8 @@
                             </div>
                             <div class="modal-action-product">
                                 <div class="thumb">
-                                    <img src="assets/images/shop/modal1.webp" alt="Organic Food Juice" width="466" height="320">
+                                    <img src="assets/images/shop/modal1.webp" alt="Organic Food Juice" width="466"
+                                        height="320">
                                 </div>
                                 <h4 class="product-name"><a href="product-details.html">Readable content DX22</a></h4>
                             </div>
@@ -330,10 +433,12 @@
         <!--== End Product Quick Add Cart Modal ==-->
 
         <!--== Start Aside Search Form ==-->
-        <aside class="aside-search-box-wrapper offcanvas offcanvas-top" tabindex="-1" id="AsideOffcanvasSearch" aria-labelledby="offcanvasTopLabel">
+        <aside class="aside-search-box-wrapper offcanvas offcanvas-top" tabindex="-1" id="AsideOffcanvasSearch"
+            aria-labelledby="offcanvasTopLabel">
             <div class="offcanvas-header">
                 <h5 class="d-none" id="offcanvasTopLabel">Aside Search</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-close"></i></button>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                        class="fa fa-close"></i></button>
             </div>
             <div class="offcanvas-body">
                 <div class="container pt--0 pb--0">
@@ -344,7 +449,8 @@
                         <form action="#" method="post">
                             <div class="aside-search-form position-relative">
                                 <label for="SearchInput" class="visually-hidden">Search</label>
-                                <input id="SearchInput" type="search" class="form-control" placeholder="Search entire store…">
+                                <input id="SearchInput" type="search" class="form-control"
+                                    placeholder="Search entire store…">
                                 <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
                             </div>
                         </form>
@@ -368,7 +474,8 @@
                                     <div class="col-lg-6">
                                         <!--== Start Product Thumbnail Area ==-->
                                         <div class="product-single-thumb">
-                                            <img src="assets/images/shop/quick-view1.webp" width="544" height="560" alt="Image-HasTech">
+                                            <img src="assets/images/shop/quick-view1.webp" width="544" height="560"
+                                                alt="Image-HasTech">
                                         </div>
                                         <!--== End Product Thumbnail Area ==-->
                                     </div>
@@ -379,15 +486,19 @@
                                             <h3 class="product-details-title">Offbline Instant Age Rewind Eraser.</h3>
                                             <div class="product-details-review mb-5">
                                                 <div class="product-review-icon">
-                                                    <i class="fa fa-star-o"></i>
-                                                    <i class="fa fa-star-o"></i>
-                                                    <i class="fa fa-star-o"></i>
-                                                    <i class="fa fa-star-o"></i>
-                                                    <i class="fa fa-star-half-o"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
                                                 </div>
                                                 <button type="button" class="product-review-show">150 reviews</button>
                                             </div>
-                                            <p class="mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, repellendus. Nam voluptate illo ut quia non sapiente provident alias quos laborum incidunt, earum accusamus, natus. Vero pariatur ut veniam sequi amet consectetur.</p>
+                                            <p class="mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Delectus, repellendus. Nam voluptate illo ut quia non sapiente provident
+                                                alias quos laborum incidunt, earum accusamus, natus. Vero pariatur ut
+                                                veniam
+                                                sequi amet consectetur.</p>
                                             <div class="product-details-pro-qty">
                                                 <div class="pro-qty">
                                                     <input type="text" title="Quantity" value="01">
@@ -396,7 +507,8 @@
                                             <div class="product-details-action">
                                                 <h4 class="price">$254.22</h4>
                                                 <div class="product-details-cart-wishlist">
-                                                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">Add to cart</button>
+                                                    <button type="button" class="btn" data-bs-toggle="modal"
+                                                        data-bs-target="#action-CartAddModal">WISH LIST</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -412,10 +524,12 @@
         <!--== End Product Quick View Modal ==-->
 
         <!--== Start Aside Cart ==-->
-        <aside class="aside-cart-wrapper offcanvas offcanvas-end" tabindex="-1" id="AsideOffcanvasCart" aria-labelledby="offcanvasRightLabel">
+        <aside class="aside-cart-wrapper offcanvas offcanvas-end" tabindex="-1" id="AsideOffcanvasCart"
+            aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
                 <h1 class="d-none" id="offcanvasRightLabel">Shopping Cart</h1>
-                <button class="btn-aside-cart-close" data-bs-dismiss="offcanvas" aria-label="Close">Shopping Cart <i class="fa fa-chevron-right"></i></button>
+                <button class="btn-aside-cart-close" data-bs-dismiss="offcanvas" aria-label="Close">Shopping Cart <i
+                        class="fa fa-chevron-right"></i></button>
             </div>
             <div class="offcanvas-body">
                 <ul class="aside-cart-product-list">
@@ -444,10 +558,12 @@
         <!--== End Aside Cart ==-->
 
         <!--== Start Aside Menu ==-->
-        <aside class="off-canvas-wrapper offcanvas offcanvas-start" tabindex="-1" id="AsideOffcanvasMenu" aria-labelledby="offcanvasExampleLabel">
+        <aside class="off-canvas-wrapper offcanvas offcanvas-start" tabindex="-1" id="AsideOffcanvasMenu"
+            aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
                 <h1 class="d-none" id="offcanvasExampleLabel">Aside Menu</h1>
-                <button class="btn-menu-close" data-bs-dismiss="offcanvas" aria-label="Close">menu <i class="fa fa-chevron-left"></i></button>
+                <button class="btn-menu-close" data-bs-dismiss="offcanvas" aria-label="Close">menu <i
+                        class="fa fa-chevron-left"></i></button>
             </div>
             <div class="offcanvas-body">
                 <div id="offcanvasNav" class="offcanvas-menu-nav">
@@ -458,7 +574,8 @@
                                 <li><a href="index-two.html">Home Two</a></li>
                             </ul>
                         </li>
-                        <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="about-us.html">about</a></li>
+                        <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="about-us.html">about</a>
+                        </li>
                         <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="#">shop</a>
                             <ul>
                                 <li><a href="#" class="offcanvas-nav-item">Shop Layout</a>
@@ -506,7 +623,8 @@
                                 <li><a href="page-not-found.html">Page Not Found</a></li>
                             </ul>
                         </li>
-                        <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="contact.html">Contact</a></li>
+                        <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="contact.html">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -519,18 +637,18 @@
     <!-- JS Vendor, Plugins & Activation Script Files -->
 
     <!-- Vendors JS -->
-    <script src="./assets/js/vendor/modernizr-3.11.7.min.js"></script>
-    <script src="./assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-    <script src="./assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
 
     <!-- Plugins JS -->
-    <script src="./assets/js/plugins/swiper-bundle.min.js"></script>
-    <script src="./assets/js/plugins/fancybox.min.js"></script>
-    <script src="./assets/js/plugins/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/fancybox.min.js"></script>
+    <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
 
     <!-- Custom Main JS -->
-    <script src="./assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 
