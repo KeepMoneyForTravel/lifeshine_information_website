@@ -21,9 +21,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
 
     <!-- Vendor CSS (Bootstrap & Icon Font) -->
     <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
@@ -37,6 +37,8 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -88,23 +90,9 @@
                     </div>
                     <div class="col-7 col-sm-6 col-lg-3">
                         <div class="header-action justify-content-end">
-                            <button class="header-action-btn ms-0" type="button" >
-                                <span class="icon">
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <rect class="icon-rect" width="30" height="30" fill="url(#pattern1)" />
-                                        <defs>
-                                            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1"
-                                                height="1">
-                                                <use xlink:href="#image0_504:11" transform="scale(0.0333333)" />
-                                            </pattern>
-                                            <image id="image0_504:11" width="30" height="30"
-                                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABiUlEQVRIie2Wu04CQRSGP0G2EUtIbHwA8B3EQisLIcorEInx8hbEZ9DKy6toDI1oAgalNFpDoYWuxZzJjoTbmSXERP7kZDbZ859vdmb27MJcf0gBUAaugRbQk2gBV3IvmDa0BLwA4Zh4BorTACaAU6fwPXAI5IAliTxwBDScvJp4vWWhH0BlTLEEsC+5Fu6lkgNdV/gKDnxHCw2I9rSiNQNV8baBlMZYJtpTn71KAg9SY3dUYn9xezLPgG8P8BdwLteq5X7CzDbnAbXKS42WxtQVUzoGeFlqdEclxXrnhmhhkqR+8KuMqzHA1vumAddl3IwB3pLxVmOyr1NjwKQmURJ4lBp7GmOAafghpg1qdSDeDrCoNReJWmZB4dsAPsW7rYVa1Rx4FbOEw5TEPKmFvgMZX3DCgYeYNniMaQ5piTXghGhPLdTmZ33hYNpem98f/UHRwSxvhqhXx4anMA3/EmhiOlJPJnSBOb3uQcpOE65VhujPpAms/Bu4u+x3swRbeB24mTV4LgB+AFuLedkPkcmmAAAAAElFTkSuQmCC" />
-                                        </defs>
-                                    </svg>
-                                </span>
+                            <button id="languageButton" class="header-action-btn ms-0" type="button">
+                                TH
                             </button>
-
 
                             <button class="header-menu-btn" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
@@ -127,7 +115,7 @@
                         <div class="col-md-7 col-lg-7 col-xl-5">
                             <div class="page-header-content">
                                 <img src="assets/images/slider/15.png" style="width: 80%;" alt="Image">
-                                <p class="page-header-desc prompt-thin">
+                                <p id="b1" class="page-header-desc prompt-thin">
                                     พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา!
                                     เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย</p>
                             </div>
@@ -150,17 +138,20 @@
                     </div>
                     <div class="about-content">
                         <div class="row">
-                        <div class="col-12">
-                            <div class="section-title text-center">
-                                <div class="d-flex justify-content-center flex-wrap">
-                                    <h2 class="title product-title" style="color: #f7b57a; font-weight: 700;">Welcome</h2>
-                                    <h2 class="title product-title" style="color: #7fc6dc; font-weight: 700;">&nbsp;to&nbsp;</h2>
-                                    <h2 class="title product-title" style="color: #a7d18c; font-weight: 700;">LIFESHINE</h2>
+                            <div class="col-12">
+                                <div class="section-title text-center">
+                                    <div class="d-flex justify-content-center flex-wrap">
+                                        <h2 class="title product-title" style="color: #f7b57a; font-weight: 700;">
+                                            Welcome</h2>
+                                        <h2 class="title product-title" style="color: #7fc6dc; font-weight: 700;">
+                                            &nbsp;to&nbsp;</h2>
+                                        <h2 class="title product-title" style="color: #a7d18c; font-weight: 700;">
+                                            LIFESHINE</h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                        <p class="desc prompt-thin">เรามุ่งมั่นพัฒนาผลิตภัณฑ์เสริมอาหารคุณภาพสูง ด้วยการนำ
+                        <p id="b2" class="desc prompt-thin">เรามุ่งมั่นพัฒนาผลิตภัณฑ์เสริมอาหารคุณภาพสูง ด้วยการนำ
                             สารสกัดพิเศษจากแหล่งผลิตชั้นนำ ได้แก่ ไต้หวัน, ญี่ปุ่น, เกาหลี
                             ผสมผสานกับวิทยาการทางโภชนาการที่ได้การรับรองมาตรฐานจากสถาบันชั้นนำของทั้งในและต่างประเทศ
                             เพื่อมอบสิ่งที่ดีที่สุดให้กับสุขภาพและความงามของคุณที่ LIFESHINE
@@ -176,12 +167,10 @@
                 <div class="container">
                     <div class="about-content">
                         <div class="d-flex justify-content-center">
-                            <h2 style="font-weight:700; font-size: 54px; color: #7fc6dc;" class="title">
-                                &nbsp;VISION&nbsp;</h2>
+                            <h2 id="b3" style="font-weight:700; font-size: 54px; color: #7fc6dc;" class="prompt-title title">
+                                &nbsp;วิสัยทัศน์&nbsp;</h2>
                         </div>
-                        <p class="desc prompt-thin">" To unlock the power of inner health, helping individuals shine
-                            with confidence and beauty through science-backed, sustainable wellness products."</p>
-                        <p class="desc prompt-thin" style="color: #7fc6dc;">ส่งเสริมสุขภาพจากภายในสู่ความงามที่ยั่งยืน
+                        <p id="b5" class="desc prompt-thin">" ส่งเสริมสุขภาพจากภายในสู่ความงามที่ยั่งยืน
                             ด้วยนวัตกรรมและผลิตภัณฑ์ที่ปลอดภัย<br>
                             เพื่อให้ทุกคนเปล่งประกายด้วยความมั่นใจ</p>
                     </div>
@@ -192,11 +181,12 @@
                 <div class="container">
                     <div class="about-content">
                         <div class="d-flex justify-content-center">
-                            <h2 style="font-weight:700; font-size: 54px; color: #f7b57a;" class="prompt-title title">
+                            <h2 id="b6" style="font-weight:700; font-size: 54px; color: #f7b57a;"
+                                class="prompt-title title">
                                 พันธกิจของเรา
                             </h2>
                         </div>
-                        <p class="desc prompt-thin">LIFESHINE มุ่งมั่น ที่จะ ส่งเสริมสุขภาพแบบองค์รวม
+                        <p id="b7" class="desc prompt-thin">LIFESHINE มุ่งมั่น ที่จะ ส่งเสริมสุขภาพแบบองค์รวม
                             ด้วยผลิตภัณฑ์โภชนาการและโปรไบโอติกคุณภาพสูงที่ช่วยเสริมสร้างความแข็งแรงจากภายในสู่ภายนอก
                             เพื่อสุขภาพที่ยั่งยืนและความงามที่แท้จริง เราเชื่อในการ สร้างความมั่นใจ ให้กับทุกคน
                             ผ่านโซลูชันด้านสุขภาพที่ได้รับการวิจัยและพิสูจน์แล้วว่ามีประสิทธิภาพ
@@ -206,7 +196,8 @@
                             เรายังยึดมั่นใน ความยั่งยืนและนวัตกรรม ด้วยการพัฒนาผลิตภัณฑ์อย่างต่อเนื่อง
                             พร้อมดำเนินธุรกิจด้วยความรับผิดชอบต่อสิ่งแวดล้อมและจริยธรรม
                             เพื่อสร้างสุขภาพที่ดีและโลกที่ยั่งยืนไปพร้อมกัน</p>
-                        <p class="desc prompt-thin" style="color: #a7d18c;">Your Health, Your Shine เพราะสุขภาพของคุณคือความเปล่งประกายที่แท้จริง!</p>
+                        <p id="b8" class="desc prompt-thin" style="color: #a7d18c;">Your Health, Your Shine
+                            เพราะสุขภาพของคุณคือความเปล่งประกายที่แท้จริง!</p>
                     </div>
                 </div>
             </section>
@@ -225,8 +216,9 @@
                                     <a class="widget-logo" href="index.html">
                                         <img src="assets/images/logo2.png" style="width: 70%;" alt="Logo">
                                     </a>
-                                    <p class="desc prompt-thin">พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา!
-                                        เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย“Your Life, Your
+                                    <p id="f1" class="desc prompt-thin">
+                                        พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา!
+                                        เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย“Your Health, Your
                                         Shine”</p>
                                 </div>
                             </div>
@@ -235,7 +227,8 @@
                             <div class="widget-item">
                                 <h4 class="widget-title">Lifeshine Address</h4>
                                 <div class="widget-about">
-                                    <p class="desc prompt-thin">96/94 หมู่ที่ 15 ตำบลราชาเทวะ อำเภอบางพลี สมุทรปราการ 10540</p>
+                                    <p id="f2" class="desc prompt-thin">96/94 หมู่ที่ 15 ตำบลราชาเทวะ อำเภอบางพลี
+                                        สมุทรปราการ 10540</p>
                                 </div>
                                 <br>
                                 <div class="widget-about">
@@ -247,12 +240,12 @@
                             <div class="widget-item">
                                 <h4 class="widget-title">Social Info</h4>
                                 <div class="widget-social">
-                                    <a href="https://www.instagram.com/lifeshine.thailand" target="_blank" rel="noopener"><i
+                                    <a href="https://www.instagram.com/lifeshine.thailand" rel="noopener"><i
                                             class="fa fa-instagram"></i></a>
-                                    <a href="https://www.facebook.com/profile.php?id=6157028976664" target="_blank" rel="noopener"><i
+                                    <a href="https://m.me/61570289766643" target="_blank" rel="noopener"><i
                                             class="fa fa-facebook"></i></a>
-                                    <a href="https://www.tiktok.com/@lifeshine.official?_t=ZS-8sqQUjto8TX&_r=" target="_blank" rel="noopener"><i
-                                            class="fab fa-tiktok"></i></a>
+                                    <a href="https://www.tiktok.com/@lifeshine.official?_t=ZS-8sqQUjto8TX&_r="
+                                        target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -402,8 +395,8 @@
                                             <div class="product-details-action">
                                                 <h4 class="price">$254.22</h4>
                                                 <div class="product-details-cart-wishlist">
-                                                    <button type="button" class="btn" data-bs-toggle="modal"
-                                                       >WISH LIST</button>
+                                                    <button type="button" class="btn" data-bs-toggle="modal">WISH
+                                                        LIST</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -468,7 +461,7 @@
                         <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="about-us.html">about</a>
                         </li>
                         <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="product.html">Product</a>
-                            
+
                         </li>
                         <li class="offcanvas-nav-parent"><a class="offcanvas-nav-item" href="blog.html">Blog</a>
                         </li>
@@ -498,7 +491,107 @@
 
     <!-- Custom Main JS -->
     <script src="./assets/js/main.js"></script>
+    <script>
+        const button = document.getElementById('languageButton');
 
+        // On page load (refresh), check localStorage and set the button text and content accordingly
+        window.onload = function () {
+            if (localStorage.getItem('la') === '1') {
+                button.textContent = 'EN';
+                // Change the blog content to English if 'la' is set to '1'
+                document.getElementById('b1').textContent =
+                    "Choose the life you want, and let your radiance shine. Because at LIFESHINE, we stand by our motto: “Your Health, Your Shine.”";
+                document.getElementById('b2').textContent =
+                    "At LIFESHINE, we are committed to developing premium-quality dietary supplements by leveraging exclusive extracts sourced from world-class producers in Taiwan, Japan, and many more. Our products combine these exceptional ingredients with cutting-edge nutritional science, certified by leading institutions both domestically and internationally, to deliver the very best for your health and beauty.We believe that true beauty begins from within. That’s why our supplements are meticulously designed to restore and nourish at the cellular level, using ingredients that have been rigorously researched and certified to meet international standards. With LIFESHINE, you’re empowered to embrace a lifestyle of health, vitality, and self-confidence.";
+                document.getElementById('b3').textContent =
+                    "VISION";
+                document.getElementById('b5').textContent =
+                    "“To unlock the power of inner health, helping individuals shine with confidence and beauty through science-backed, sustainable wellness products.”";
+                document.getElementById('b6').textContent =
+                    "MISSION";
+                document.getElementById('b7').textContent =
+                    "Promote Holistic Health: Provide premium probiotic and nutritional products that strengthen the body from the inside out for lasting health and beauty.Inspire Confidence: Help individuals feel confident and energized through well-researched and proven wellness solutions.Commit to Excellence: Focus on delivering safe, high-quality products tailored to support overall well-being and skin health.Sustainability and Innovation: Continuously innovate our product offerings while ensuring eco-friendly and ethical practices in our business.";
+                document.getElementById('b8').textContent =
+                    "Your Health, Your Shine Because your health is your true radiance!";
+                document.getElementById('f1').textContent =
+                    "Choose the life you want, and let your radiance shine. Because at LIFESHINE, we stand by our motto: “Your Health, Your Shine.”";
+                document.getElementById('f2').textContent =
+                    "96/94 Moo 15, Racha Thewa Subdistrict, Bang Phli District, Samut Prakan 10540, Thailand";
+            } else {
+                button.textContent = 'TH';
+                // Revert the blog content to Thai if 'la' is not set to '1'
+                document.getElementById('b1').textContent =
+                    "พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา! เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย";
+                document.getElementById('b2').textContent =
+                    "เรามุ่งมั่นพัฒนาผลิตภัณฑ์เสริมอาหารคุณภาพสูง ด้วยการนำ สารสกัดพิเศษจากแหล่งผลิตชั้นนำ ได้แก่ ไต้หวัน, ญี่ปุ่น, เกาหลี ผสมผสานกับวิทยาการทางโภชนาการที่ได้การรับรองมาตรฐานจากสถาบันชั้นนำของทั้งในและต่างประเทศ เพื่อมอบสิ่งที่ดีที่สุดให้กับสุขภาพและความงามของคุณที่ LIFESHINE เราเชื่อว่าความงามที่แท้จริงเริ่มต้นจากภายในสู่ภายนอก ผลิตภัณฑ์ของเราจึงได้รับการออกแบบเพื่อฟื้นฟูและบำรุงลึกถึงระดับเซลล์ ด้วยส่วนผสมที่ผ่านการวิจัยและรับรองมาตรฐานสากล";
+                document.getElementById('b3').textContent =
+                    "วิสัยทัศน์";
+                document.getElementById('b5').textContent =
+                    "“ส่งเสริมสุขภาพจากภายในสู่ความงามที่ยั่งยืน ด้วยนวัตกรรมและผลิตภัณฑ์ที่ปลอดภัย เพื่อให้ทุกคนเปล่งประกายด้วยความมั่นใจ”";
+                document.getElementById('b6').textContent =
+                    "พันธกิจของเรา";
+                document.getElementById('b7').textContent =
+                    "LIFESHINE มุ่งมั่นที่จะส่งเสริมสุขภาพแบบองค์รวม ด้วยผลิตภัณฑ์โภชนาการและโปรไบโอติกคุณภาพสูงที่ช่วยเสริมสร้างความแข็งแรงจากภายในสู่ภายนอก เพื่อสุขภาพที่ยั่งยืนและความงามที่แท้จริง เราเชื่อในการสร้างความมั่นใจให้กับทุกคน ผ่านโซลูชันด้านสุขภาพที่ได้รับการวิจัยและพิสูจน์แล้วว่ามีประสิทธิภาพ ช่วยให้ทุกคนรู้สึกมั่นใจ เปล่งประกาย และมีพลังในทุกช่วงเวลา LIFESHINE ให้ความสำคัญกับความเป็นเลิศ โดยมุ่งเน้นการส่งมอบผลิตภัณฑ์ที่ปลอดภัยได้มาตรฐานสูงสุด และเหมาะกับการดูแลสุขภาพโดยรวมและการบำรุงผิวพรรณอย่างมีประสิทธิภาพนอกจากนี้ เรายังยึดมั่นในความยั่งยืนและนวัตกรรม ด้วยการพัฒนาผลิตภัณฑ์อย่างต่อเนื่อง พร้อมดำเนินธุรกิจด้วยความรับผิดชอบต่อสิ่งแวดล้อมและจริยธรรม เพื่อสร้างสุขภาพที่ดีและโลกที่ยั่งยืนไปพร้อมกัน";
+                document.getElementById('b8').textContent =
+                    "Your Health, Your Shine เพราะสุขภาพของคุณคือความเปล่งประกายที่แท้จริง!";
+                document.getElementById('f1').textContent =
+                    "พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา! เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย“Your Health, Your Shine”";
+                document.getElementById('f2').textContent =
+                    "96/94 หมู่ที่ 15 ตำบลราชาเทวะ อำเภอบางพลี สมุทรปราการ 10540";
+            }
+        };
+
+        // Add click event to toggle language and update localStorage in real-time
+        button.addEventListener('click', function () {
+            if (button.textContent.trim() === 'TH') {
+                button.textContent = 'EN';
+                localStorage.setItem('la', '1');
+
+                // Change the blog content to English
+                document.getElementById('b1').textContent =
+                    "Choose the life you want, and let your radiance shine. Because at LIFESHINE, we stand by our motto: “Your Health, Your Shine.”";
+                document.getElementById('b2').textContent =
+                    "At LIFESHINE, we are committed to developing premium-quality dietary supplements by leveraging exclusive extracts sourced from world-class producers in Taiwan, Japan, and many more. Our products combine these exceptional ingredients with cutting-edge nutritional science, certified by leading institutions both domestically and internationally, to deliver the very best for your health and beauty.We believe that true beauty begins from within. That’s why our supplements are meticulously designed to restore and nourish at the cellular level, using ingredients that have been rigorously researched and certified to meet international standards. With LIFESHINE, you’re empowered to embrace a lifestyle of health, vitality, and self-confidence.";
+                document.getElementById('b3').textContent =
+                    "VISION";
+                document.getElementById('b5').textContent =
+                    "“To unlock the power of inner health, helping individuals shine with confidence and beauty through science-backed, sustainable wellness products.”";
+                document.getElementById('b6').textContent =
+                    "MISSION";
+                document.getElementById('b7').textContent =
+                    "Promote Holistic Health: Provide premium probiotic and nutritional products that strengthen the body from the inside out for lasting health and beauty.Inspire Confidence: Help individuals feel confident and energized through well-researched and proven wellness solutions.Commit to Excellence: Focus on delivering safe, high-quality products tailored to support overall well-being and skin health.Sustainability and Innovation: Continuously innovate our product offerings while ensuring eco-friendly and ethical practices in our business.";
+                document.getElementById('b8').textContent =
+                    "Your Health, Your Shine Because your health is your true radiance!";
+                document.getElementById('f1').textContent =
+                    "Choose the life you want, and let your radiance shine. Because at LIFESHINE, we stand by our motto: “Your Health, Your Shine.”";
+                document.getElementById('f2').textContent =
+                    "96/94 Moo 15, Racha Thewa Subdistrict, Bang Phli District, Samut Prakan 10540, Thailand";
+            } else {
+                button.textContent = 'TH';
+                localStorage.removeItem('la');
+
+                // Revert the blog content to Thai
+                document.getElementById('b1').textContent =
+                    "พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา! เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย";
+                document.getElementById('b2').textContent =
+                    "เรามุ่งมั่นพัฒนาผลิตภัณฑ์เสริมอาหารคุณภาพสูง ด้วยการนำ สารสกัดพิเศษจากแหล่งผลิตชั้นนำ ได้แก่ ไต้หวัน, ญี่ปุ่น, เกาหลี ผสมผสานกับวิทยาการทางโภชนาการที่ได้การรับรองมาตรฐานจากสถาบันชั้นนำของทั้งในและต่างประเทศ เพื่อมอบสิ่งที่ดีที่สุดให้กับสุขภาพและความงามของคุณที่ LIFESHINE เราเชื่อว่าความงามที่แท้จริงเริ่มต้นจากภายในสู่ภายนอก ผลิตภัณฑ์ของเราจึงได้รับการออกแบบเพื่อฟื้นฟูและบำรุงลึกถึงระดับเซลล์ ด้วยส่วนผสมที่ผ่านการวิจัยและรับรองมาตรฐานสากล";
+                document.getElementById('b3').textContent =
+                    "วิสัยทัศน์";
+                document.getElementById('b5').textContent =
+                    "“ส่งเสริมสุขภาพจากภายในสู่ความงามที่ยั่งยืน ด้วยนวัตกรรมและผลิตภัณฑ์ที่ปลอดภัย เพื่อให้ทุกคนเปล่งประกายด้วยความมั่นใจ”";
+                document.getElementById('b6').textContent =
+                    "พันธกิจของเรา";
+                document.getElementById('b7').textContent =
+                    "LIFESHINE มุ่งมั่นที่จะส่งเสริมสุขภาพแบบองค์รวม ด้วยผลิตภัณฑ์โภชนาการและโปรไบโอติกคุณภาพสูงที่ช่วยเสริมสร้างความแข็งแรงจากภายในสู่ภายนอก เพื่อสุขภาพที่ยั่งยืนและความงามที่แท้จริง เราเชื่อในการสร้างความมั่นใจให้กับทุกคน ผ่านโซลูชันด้านสุขภาพที่ได้รับการวิจัยและพิสูจน์แล้วว่ามีประสิทธิภาพ ช่วยให้ทุกคนรู้สึกมั่นใจ เปล่งประกาย และมีพลังในทุกช่วงเวลา LIFESHINE ให้ความสำคัญกับความเป็นเลิศ โดยมุ่งเน้นการส่งมอบผลิตภัณฑ์ที่ปลอดภัยได้มาตรฐานสูงสุด และเหมาะกับการดูแลสุขภาพโดยรวมและการบำรุงผิวพรรณอย่างมีประสิทธิภาพนอกจากนี้ เรายังยึดมั่นในความยั่งยืนและนวัตกรรม ด้วยการพัฒนาผลิตภัณฑ์อย่างต่อเนื่อง พร้อมดำเนินธุรกิจด้วยความรับผิดชอบต่อสิ่งแวดล้อมและจริยธรรม เพื่อสร้างสุขภาพที่ดีและโลกที่ยั่งยืนไปพร้อมกัน";
+                document.getElementById('b8').textContent =
+                    "Your Health, Your Shine เพราะสุขภาพของคุณคือความเปล่งประกายที่แท้จริง!";
+                document.getElementById('f1').textContent =
+                    "พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา! เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย“Your Health, Your Shine”";
+                document.getElementById('f2').textContent =
+                    "96/94 หมู่ที่ 15 ตำบลราชาเทวะ อำเภอบางพลี สมุทรปราการ 10540";
+            }
+        });
+    </script>
 </body>
 
 </html>
