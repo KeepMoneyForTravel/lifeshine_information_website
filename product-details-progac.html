@@ -64,18 +64,30 @@
                     <div class="col-lg-6 d-none d-lg-block">
                         <div class="header-navigation">
                             <ul class="main-nav justify-content-start">
-                                <li class="has-submenu"><a href="index.html">home</a></li>
+                                <li class="has-submenu"><a href="index.html">home</a>
+                                </li>
                                 <li><a href="about-us.html">about</a></li>
-                                <li class="has-submenu position-static"><a href="product.html">product</a></li>
-                                <li class="has-submenu"><a href="blog.html">Blog</a></li>
+                                <li class="has-submenu position-static"><a href="product.html">product</a>
+
+                                </li>
+                                <li class="has-submenu"><a href="blog.html">Blog</a>
+
+                                </li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-10 col-sm-6 col-lg-3">
+                    <div class="col-7 col-sm-6 col-lg-3">
                         <div class="header-action justify-content-end">
-                            <button class="header-action-btn ms-0" type="button">
+                            <button id="languageButton" class="header-action-btn ms-0" type="button">
                                 TH
+                            </button>
+
+                            <button class="header-menu-btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
                             </button>
                         </div>
                     </div>
@@ -130,9 +142,9 @@
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                     </div>
-                                    <button type="button" class="product-review-show">150 reviews</button>
+                                     
                                 </div>
-                                <p class="mb-7">Pro G-Ac Dietary Supplement Product (Lifeshine Brand)
+                                <p  id="t1" class="mb-7">Pro G-Ac Dietary Supplement Product (Lifeshine Brand)
                                     ผลิตภัณฑ์เสริมอาหาร โปร จี แอค
                                     เป็นผลิตภัณฑ์เสริมอาหารในรูปแบบชงดื่ม ที่มุ่งเน้นให้ความสำคัญของทุกเพศ ทุกวัย
                                     ที่กำลังประสบปัญหาในเรื่องของสิว ผิวแพ้ง่าย รวมไปถึงอาการภูมิแพ้
@@ -140,7 +152,7 @@
                                     ใช้สารสกัดนำเข้าจากต่างประเทศ USA / Japan / Taiwan และ สารกัดจากพืช และ ผลไม้ของไทย
                                 </p>
                                 <div class="product-details-action">
-                                    <h4 class="price">690 บาท</h4>
+                                    <h4 id="la1" class="price">690 บาท</h4>
                                     <div class="product-details-cart-wishlist">
                                         <button type="button" class="btn-wishlist" data-bs-toggle="modal"
                                             data-bs-target="#action-WishlistModal"><i
@@ -166,38 +178,34 @@
                                     aria-labelledby="review-tab">
                                     <!--== Start Reviews Content Item ==-->
                                     <ul class="product-details-info-wrap">
-                                        <li><span>น้ำหนักสุทธิ</span>
+                                        <li><span id="t2">น้ำหนักสุทธิ</span>
                                             <p>225 g</p>
                                         </li>
-                                        <li><span>บรรจุ</span>
+                                        <li><span id="t3">บรรจุ</span>
                                             <p>15 pax/1 box</p>
                                         </li>
                                     </ul>
 
-                                    <p>-Spectra สารสกัดจากผักและผลไม้ 5 สี รวมกว่า 27 ชนิด นำเข้าจากสหรัฐอเมริกา
+                                    <p id="t4">-Spectra สารสกัดจากผักและผลไม้ 5 สี รวมกว่า 27 ชนิด นำเข้าจากสหรัฐอเมริกา
                                         ให้สาระสำคัญคือ Nitric Oxide / Phytochemical ช่วยต่อต้านอนุมูลอิสระ มลพิษ แสงแดด
-                                        และสารเคมี
-                                        ที่จะเข้าไปทำร้ายร่างกาย ช่วยระบบไหลเวียนโลหิตทำงานได้เป็นปกติ
+                                        และสารเคมี ที่จะเข้าไปทำร้ายร่างกาย ช่วยระบบไหลเวียนโลหิตทำงานได้เป็นปกติ
                                         เพิ่มภูมิต้านทานให้แก่ร่างกาย
                                         -Vitamin C 1,000 mg วิตามินซีปริมาณสูงที่สุด
-                                        ที่ได้รับการอนุมัติใช้ในผลิตภัณฑ์เสริมอาหาร
-                                        เทียบเท่าระดับยา ที่ให้ผลในเชิงรักษา และ ป้องกัน
-                                        -Bifidobacterium Lactis GKK2 โปรไบโอติกย้อนวัย
-                                        ผลิตและนำเข้าจากประเทศไต้หวัน โดย Grapeking Bio ผู้เชียวชาญด้านการผลิตโปรไบโอติก
-                                        จุลินทรีย์ที่มีชีวิต ถูกเคลือบด้วยเทคโนโลยีลับเฉพาะ 4 Layers ที่ไม่เหมือนใคร
+                                        ที่ได้รับการอนุมัติใช้ในผลิตภัณฑ์เสริมอาหาร เทียบเท่าระดับยา ที่ให้ผลในเชิงรักษา
+                                        และ ป้องกัน
+                                        -Bifidobacterium Lactis GKK2 โปรไบโอติกย้อนวัย ผลิตและนำเข้าจากประเทศไต้หวัน โดย
+                                        Grapeking Bio ผู้เชียวชาญด้านการผลิตโปรไบโอติก จุลินทรีย์ที่มีชีวิต
+                                        ถูกเคลือบด้วยเทคโนโลยีลับเฉพาะ 4 Layers ที่ไม่เหมือนใคร
                                         เทคโนโลยีมีสิทธิบัตรรับรอง
                                         ช่วยปกป้องให้เข้าสู่ลำไส้โดยไม่ถูกทำลายโดยระบบน้ำย่อยและความเป็นกรดในระบบทางเดินอาหาร
                                         มีงานวิจัยรองรับในด้าน Anti Aging / Anti Allergy และ Boost Imminity รวมกว่า 254
-                                        ฉบับ
-                                        ได้รับรางวัลการันตีระดับเหรียญทอง 3 ปีซ้อน
-                                        สารสกัดภูมิปัญญาของไทย 2 ชนิด คือ
+                                        ฉบับ ได้รับรางวัลการันตีระดับเหรียญทอง 3 ปีซ้อน สารสกัดภูมิปัญญาของไทย 2 ชนิด
+                                        คือ
                                         -Centella Asiatica สารสกัดจากใบบัวบก ให้สาระสำคัญ คือ Asaiatic Acid
-                                        ช่วยลดการอักเสบ ลดการเกิดสิว ละการระคายเคืองผิว
-                                        เสริมสร้างระบบ Skin Barrier
+                                        ช่วยลดการอักเสบ ลดการเกิดสิว ละการระคายเคืองผิว เสริมสร้างระบบ Skin Barrier
                                         -Mangosteen Powder สารสกัดจากมังคุด ราชินีของผลไม้ไทย ให้สาระสำคัญในกลุ่ม
-                                        Xanthones และ Mangostin
-                                        มีฤทธิ์ลดการอักเสบ ต่อต้านอนุมูลอิสระ ช่วยในการชะลอวัย ต่อต่านแบคทีเรียก่อโรค
-                                        ช่วยยับยั้งการเกิดสิว
+                                        Xanthones และ Mangostin มีฤทธิ์ลดการอักเสบ ต่อต้านอนุมูลอิสระ ช่วยในการชะลอวัย
+                                        ต่อต่านแบคทีเรียก่อโรค ช่วยยับยั้งการเกิดสิว
                                         เสริมสร้างภูมิต้านทานระบบภูมิคุ้มกันให้แก่ร่างกาย
                                     </p>
                                 </div>
@@ -220,7 +228,7 @@
                                     <a class="widget-logo" href="index.html">
                                         <img src="assets/images/logo2.png" style="width: 70%;" alt="Logo">
                                     </a>
-                                    <p class="desc prompt-thin">
+                                    <p id="f1" class="desc prompt-thin">
                                         พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา!
                                         เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย“Your Health, Your
                                         Shine”</p>
@@ -231,7 +239,7 @@
                             <div class="widget-item">
                                 <h4 class="widget-title">Lifeshine Address</h4>
                                 <div class="widget-about">
-                                    <p class="desc prompt-thin">96/94 หมู่ที่ 15 ตำบลราชาเทวะ อำเภอบางพลี สมุทรปราการ
+                                    <p id="f2" class="desc prompt-thin">96/94 หมู่ที่ 15 ตำบลราชาเทวะ อำเภอบางพลี สมุทรปราการ
                                         10540
                                     </p>
                                 </div>
@@ -247,8 +255,8 @@
                                 <div class="widget-social">
                                     <a href="https://www.instagram.com/lifeshine.thailand" target="_blank"
                                         rel="noopener"><i class="fa fa-instagram"></i></a>
-                                    <a href="https://m.me/61570289766643" target="_blank"
-                                        rel="noopener"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://m.me/61570289766643" target="_blank" rel="noopener"><i
+                                            class="fa fa-facebook"></i></a>
                                     <a href="https://www.tiktok.com/@lifeshine.official?_t=ZS-8sqQUjto8TX&_r="
                                         target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a>
                                 </div>
@@ -263,8 +271,7 @@
             <div class="footer-bottom">
                 <div class="container pt-0 pb-0">
                     <div class="footer-bottom-content">
-                        <p class="copyright">© 2022 Brancy. Made with <i class="fa fa-heart"></i> by <a target="_blank"
-                                href="https://themeforest.net/user/codecarnival">Codecarnival.</a></p>
+                        <p class="copyright"> @2025 LifeShine all right preserved</a></p>
                     </div>
                 </div>
             </div>
@@ -387,7 +394,7 @@
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
                                                 </div>
-                                                <button type="button" class="product-review-show">150 reviews</button>
+                                                 
                                             </div>
                                             <p class="mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                                 Delectus, repellendus. Nam voluptate illo ut quia non sapiente provident
@@ -544,6 +551,95 @@
 
     <!-- Custom Main JS -->
     <script src="assets/js/main.js"></script>
+    <script>
+        const button = document.getElementById('languageButton');
+        const productImage = document.getElementById('productImage');
+        // On page load (refresh), check localStorage and set the button text and content accordingly
+        window.onload = function () {
+            if (localStorage.getItem('la') === '1') {
+                button.textContent = 'EN';
+                // Change the blog content to English if 'la' is set to '1'
+                document.getElementById('la1').textContent =
+                    "690 Baht";
+                document.getElementById('t1').textContent =
+                    "Pro G-AC is a dietary supplement developed to target acne problems and promote skin health. This product combines a variety of active ingredients to effectively reduce acne, improve overall skin condition, and support holistic health. Pro G-AC focuses on addressing both internal and external factors that cause acne, providing a scientifically-backed solution to ensure visible results and healthier skin.";
+                document.getElementById('t2').textContent =
+                    "Weight";
+                document.getElementById('t3').textContent =
+                    "Pack";
+                document.getElementById('t4').textContent =
+                    "Key Ingredients and Benefits - Spectra: A blend of extracts from 27 vegetables and fruits in five colors, imported from the USA. Rich in Nitric Oxide and Phytochemicals, it helps combat free radicals, pollution, UV rays, and harmful chemicals that damage the body. Supports healthy blood circulation and boosts immunity. - Vitamin C (1,000 mg): The highest approved dosage of Vitamin C for dietary supplements, comparable to medicinal levels, providing therapeutic and preventive effects. - Bifidobacterium Lactis GKK2 (Probiotic): An anti-aging probiotic imported from Taiwan, produced by Grapeking Bio, a leader in probiotic manufacturing. Features patented 4-Layer Coating Technology, protecting the live probiotics from stomach acids and digestive enzymes, ensuring delivery to the intestines. Backed by 254 studies on Anti-Aging, Anti-Allergy, and Immunity Boosting, and awarded gold medals for three consecutive years.Traditional Thai Wisdom Extracts: - Centella Asiatica Extract (Gotu Kola): Contains Asiatic Acid, which reduces inflammation, acne, and skin irritation while strengthening the skin barrier. - Mangosteen Powder: Extracted from Thailand's “Queen of Fruits” mangosteen is rich in Xanthones and Mangostin.Offers anti-inflammatory, antioxidant, anti-aging, and antibacterial properties, aiding in acne prevention and enhancing immunity.";
+                document.getElementById('f1').textContent =
+                    "Choose the life you want, and let your radiance shine. Because at LIFESHINE, we stand by our motto: “Your Health, Your Shine.”";
+                document.getElementById('f2').textContent =
+                    "96/94 Moo 15, Racha Thewa Subdistrict, Bang Phli District, Samut Prakan 10540, Thailand";
+                productImage.src = "assets/images/20.png";
+            } else {
+                button.textContent = 'TH';
+                // Revert the blog content to Thai if 'la' is not set to '1'
+                document.getElementById('la1').textContent =
+                    "690 บาท";
+                document.getElementById('t1').textContent =
+                    "Pro G-Ac Dietary Supplement Product (Lifeshine Brand) ผลิตภัณฑ์เสริมอาหาร โปร จี แอค เป็นผลิตภัณฑ์เสริมอาหารในรูปแบบชงดื่ม ที่มุ่งเน้นให้ความสำคัญของทุกเพศ ทุกวัย ที่กำลังประสบปัญหาในเรื่องของสิว ผิวแพ้ง่าย รวมไปถึงอาการภูมิแพ้ โดยอาศัยในหลักการของเวชศาสตร์ชะลอวัย Preventive Medicine ใช้สารสกัดนำเข้าจากต่างประเทศ USA / Japan / Taiwan และ สารกัดจากพืช และ ผลไม้ของไทย";
+                document.getElementById('t2').textContent =
+                    "น้ำหนัก";
+                document.getElementById('t3').textContent =
+                    "บรรจุ";
+                document.getElementById('t4').textContent =
+                    "O2Pro Lifeshine มอบการบำรุงที่ครบถ้วนและลึกถึงระดับเซลล์ ช่วยฟื้นฟูความชุ่มชื้น ความกระชับ และความกระจ่างใส ทำให้ผิวของคุณสุขภาพดี แข็งแรง และดูอ่อนเยาว์ขึ้นอย่างเห็นได้ชัดจากภายในสู่ภายนอก **ส่วนผสมสำคัญและประโยชน์** 1. Rice Ceramide (CeraAura™)  - เพิ่มความชุ่มชื้นให้ผิวและลดเลือนริ้วรอย - ฟื้นฟูเกราะป้องกันผิวและปรับสมดุลค่า pH  - ลดอาการผิวแห้งและคันภายใน 4-8 สัปดาห์ 2. L-Cysteine - สารต้านอนุมูลอิสระที่ทรงพลัง ช่วยชะลอวัย  - เพิ่มความกระจ่างใสให้ผิว เปล่งปลั่งอย่างมีสุขภาพดี 3. Collagen Di-Peptide (MIKA Collagen)  - กระตุ้นการสร้างคอลลาเจนและอีลาสติน  - เพิ่มความยืดหยุ่น ความกระชับ และความชุ่มชื้นของผิว 4. White Jelly Fungu - ช่วยกักเก็บความชุ่มชื้นและลดการสูญเสียคอลลาเจน  - ให้ความชุ่มชื้นเทียบเท่ากับกรดไฮยาลูโรนิก 5. Bifidobacterium lactis GKK2 - เสริมการทำงานของระบบภูมิคุ้มกันและลดการอักเสบ  - ต่อต้านริ้วรอยและช่วยควบคุมน้ำหนัก 6. ProG-Can® (Proteoglycan) - กระตุ้นการผลิตคอลลาเจนและกรดไฮยาลูโรนิก  - ช่วยให้ผิวเรียบเนียน กระชับ และมีสุขภาพดี O2Pro Lifeshine มอบการบำรุงอย่างครบถ้วนและล้ำลึก เพื่อฟื้นฟูความชุ่มชื้น ความกระชับ และความเปล่งปลั่ง ทำให้ผิวของคุณดูสุขภาพดี แข็งแรง และดูอ่อนเยาว์ขึ้นอย่างเห็นได้ชัดจากภายในสู่ภายนอก";
+                document.getElementById('f1').textContent =
+                    "พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา! เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย“Your Health, Your Shine”";
+                document.getElementById('f2').textContent =
+                    "96/94 หมู่ที่ 15 ตำบลราชาเทวะ อำเภอบางพลี สมุทรปราการ 10540";
+                productImage.src = "assets/images/18.png";
+            }
+        };
+
+        // Add click event to toggle language and update localStorage in real-time
+        button.addEventListener('click', function () {
+            if (button.textContent.trim() === 'TH') {
+                button.textContent = 'EN';
+                localStorage.setItem('la', '1');
+
+                // Change the blog content to English
+                document.getElementById('la1').textContent =
+                    "690 Baht";
+                document.getElementById('t1').textContent =
+                    "Pro G-AC is a dietary supplement developed to target acne problems and promote skin health. This product combines a variety of active ingredients to effectively reduce acne, improve overall skin condition, and support holistic health. Pro G-AC focuses on addressing both internal and external factors that cause acne, providing a scientifically-backed solution to ensure visible results and healthier skin.";
+                document.getElementById('t2').textContent =
+                    "Weight";
+                document.getElementById('t3').textContent =
+                    "Pack";
+                document.getElementById('t4').textContent =
+                    "Key Ingredients and Benefits - Spectra: A blend of extracts from 27 vegetables and fruits in five colors, imported from the USA. Rich in Nitric Oxide and Phytochemicals, it helps combat free radicals, pollution, UV rays, and harmful chemicals that damage the body. Supports healthy blood circulation and boosts immunity. - Vitamin C (1,000 mg): The highest approved dosage of Vitamin C for dietary supplements, comparable to medicinal levels, providing therapeutic and preventive effects. - Bifidobacterium Lactis GKK2 (Probiotic): An anti-aging probiotic imported from Taiwan, produced by Grapeking Bio, a leader in probiotic manufacturing. Features patented 4-Layer Coating Technology, protecting the live probiotics from stomach acids and digestive enzymes, ensuring delivery to the intestines. Backed by 254 studies on Anti-Aging, Anti-Allergy, and Immunity Boosting, and awarded gold medals for three consecutive years.Traditional Thai Wisdom Extracts: - Centella Asiatica Extract (Gotu Kola): Contains Asiatic Acid, which reduces inflammation, acne, and skin irritation while strengthening the skin barrier. - Mangosteen Powder: Extracted from Thailand's “Queen of Fruits” mangosteen is rich in Xanthones and Mangostin.Offers anti-inflammatory, antioxidant, anti-aging, and antibacterial properties, aiding in acne prevention and enhancing immunity.";
+                document.getElementById('f1').textContent =
+                    "Choose the life you want, and let your radiance shine. Because at LIFESHINE, we stand by our motto: “Your Health, Your Shine.”";
+                document.getElementById('f2').textContent =
+                    "96/94 Moo 15, Racha Thewa Subdistrict, Bang Phli District, Samut Prakan 10540, Thailand";
+                productImage.src = "assets/images/20.png";
+            } else {
+                button.textContent = 'TH';
+                localStorage.removeItem('la');
+
+                // Revert the blog content to Thai
+                document.getElementById('la1').textContent =
+                    "690 บาท";
+                document.getElementById('t1').textContent =
+                    "Pro G-Ac Dietary Supplement Product (Lifeshine Brand) ผลิตภัณฑ์เสริมอาหาร โปร จี แอค เป็นผลิตภัณฑ์เสริมอาหารในรูปแบบชงดื่ม ที่มุ่งเน้นให้ความสำคัญของทุกเพศ ทุกวัย ที่กำลังประสบปัญหาในเรื่องของสิว ผิวแพ้ง่าย รวมไปถึงอาการภูมิแพ้ โดยอาศัยในหลักการของเวชศาสตร์ชะลอวัย Preventive Medicine ใช้สารสกัดนำเข้าจากต่างประเทศ USA / Japan / Taiwan และ สารกัดจากพืช และ ผลไม้ของไทย";
+                document.getElementById('t2').textContent =
+                    "น้ำหนัก";
+                document.getElementById('t3').textContent =
+                    "บรรจุ";
+                document.getElementById('t4').textContent =
+                    "O2Pro Lifeshine มอบการบำรุงที่ครบถ้วนและลึกถึงระดับเซลล์ ช่วยฟื้นฟูความชุ่มชื้น ความกระชับ และความกระจ่างใส ทำให้ผิวของคุณสุขภาพดี แข็งแรง และดูอ่อนเยาว์ขึ้นอย่างเห็นได้ชัดจากภายในสู่ภายนอก **ส่วนผสมสำคัญและประโยชน์** 1. Rice Ceramide (CeraAura™)  - เพิ่มความชุ่มชื้นให้ผิวและลดเลือนริ้วรอย - ฟื้นฟูเกราะป้องกันผิวและปรับสมดุลค่า pH  - ลดอาการผิวแห้งและคันภายใน 4-8 สัปดาห์ 2. L-Cysteine - สารต้านอนุมูลอิสระที่ทรงพลัง ช่วยชะลอวัย  - เพิ่มความกระจ่างใสให้ผิว เปล่งปลั่งอย่างมีสุขภาพดี 3. Collagen Di-Peptide (MIKA Collagen)  - กระตุ้นการสร้างคอลลาเจนและอีลาสติน  - เพิ่มความยืดหยุ่น ความกระชับ และความชุ่มชื้นของผิว 4. White Jelly Fungu - ช่วยกักเก็บความชุ่มชื้นและลดการสูญเสียคอลลาเจน  - ให้ความชุ่มชื้นเทียบเท่ากับกรดไฮยาลูโรนิก 5. Bifidobacterium lactis GKK2 - เสริมการทำงานของระบบภูมิคุ้มกันและลดการอักเสบ  - ต่อต้านริ้วรอยและช่วยควบคุมน้ำหนัก 6. ProG-Can® (Proteoglycan) - กระตุ้นการผลิตคอลลาเจนและกรดไฮยาลูโรนิก  - ช่วยให้ผิวเรียบเนียน กระชับ และมีสุขภาพดี O2Pro Lifeshine มอบการบำรุงอย่างครบถ้วนและล้ำลึก เพื่อฟื้นฟูความชุ่มชื้น ความกระชับ และความเปล่งปลั่ง ทำให้ผิวของคุณดูสุขภาพดี แข็งแรง และดูอ่อนเยาว์ขึ้นอย่างเห็นได้ชัดจากภายในสู่ภายนอก";
+                document.getElementById('f1').textContent =
+                    "พร้อมให้คุณก้าวสู่วิถีชีวิตที่สุขภาพดีและมั่นใจในตัวเองไปกับเรา! เรามั่นใจว่าคุณภาพชีวิตที่คุณเลือกได้เองจะทำให้คุณเปล่งประกาย“Your Health, Your Shine”";
+                document.getElementById('f2').textContent =
+                    "96/94 หมู่ที่ 15 ตำบลราชาเทวะ อำเภอบางพลี สมุทรปราการ 10540";
+                productImage.src = "assets/images/18.png";
+            }
+        });
+    </script>
 
 </body>
 
